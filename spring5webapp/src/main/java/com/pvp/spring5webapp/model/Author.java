@@ -12,6 +12,10 @@ import javax.persistence.*;
 @Entity
 public class Author {
 
+	public Author() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Author(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;

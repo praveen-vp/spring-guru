@@ -39,6 +39,16 @@ public class Publisher {
 		this.address = address;
 	}
 	
+	public Publisher() {
+		
+	}
+	
+	public Publisher(Long id, String name, String address) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+	}
+	
 	
 	
 }
